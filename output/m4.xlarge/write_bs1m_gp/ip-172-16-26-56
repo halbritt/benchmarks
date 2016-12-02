@@ -1,0 +1,37 @@
+file1: (g=0): rw=write, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=32
+...
+file1: (g=0): rw=write, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=32
+fio-2.1.5
+Starting 8 processes
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+
+file1: (groupid=0, jobs=8): err=116 (file:io_u.c:1521, func=io_u error, error=Stale file handle): pid=6047: Tue Nov 29 22:00:02 2016
+  write: io=24777MB, bw=21973KB/s, iops=21, runt=1154656msec
+    slat (usec): min=77, max=318, avg=143.38, stdev=17.45
+    clat (msec): min=132, max=19108, avg=8908.24, stdev=2012.32
+     lat (msec): min=132, max=19109, avg=8908.39, stdev=2012.32
+    clat percentiles (msec):
+     |  1.00th=[ 1057],  5.00th=[ 2835], 10.00th=[ 5997], 20.00th=[ 8094],
+     | 30.00th=[ 9765], 40.00th=[ 9765], 50.00th=[ 9765], 60.00th=[ 9765],
+     | 70.00th=[ 9765], 80.00th=[ 9765], 90.00th=[ 9896], 95.00th=[ 9896],
+     | 99.00th=[ 9896], 99.50th=[10028], 99.90th=[15401], 99.95th=[16581],
+     | 99.99th=[16712]
+    bw (KB  /s): min=  206, max=88000, per=21.49%, avg=4722.76, stdev=3379.03
+    lat (msec) : 250=0.14%, 500=0.57%, 750=0.21%, 1000=0.07%, 2000=0.93%
+    lat (msec) : >=2000=97.83%
+  cpu          : usr=0.00%, sys=0.06%, ctx=49743, majf=0, minf=76
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.3%, 16=0.5%, 32=99.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.1%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.1%, 64=0.0%, >=64=0.0%
+     issued    : total=r=0/w=24841/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=32
+
+Run status group 0 (all jobs):
+  WRITE: io=24777MB, aggrb=21973KB/s, minb=21973KB/s, maxb=21973KB/s, mint=1154656msec, maxt=1154656msec

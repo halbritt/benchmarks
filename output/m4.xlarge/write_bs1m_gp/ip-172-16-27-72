@@ -1,0 +1,35 @@
+file1: (g=0): rw=write, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=32
+...
+file1: (g=0): rw=write, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=32
+fio-2.1.5
+Starting 8 processes
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+
+file1: (groupid=0, jobs=8): err= 0: pid=6078: Tue Nov 29 22:06:02 2016
+  write: io=32768MB, bw=23002KB/s, iops=22, runt=1458771msec
+    slat (usec): min=81, max=944, avg=161.26, stdev=23.19
+    clat (msec): min=30, max=15458, avg=11373.68, stdev=2436.75
+     lat (msec): min=31, max=15458, avg=11373.84, stdev=2436.75
+    clat percentiles (msec):
+     |  1.00th=[ 4948],  5.00th=[ 6063], 10.00th=[ 7898], 20.00th=[ 9503],
+     | 30.00th=[10552], 40.00th=[10683], 50.00th=[13173], 60.00th=[13173],
+     | 70.00th=[13173], 80.00th=[13173], 90.00th=[13173], 95.00th=[13173],
+     | 99.00th=[13304], 99.50th=[13304], 99.90th=[13435], 99.95th=[13566],
+     | 99.99th=[14746]
+    bw (KB  /s): min=   96, max=38818, per=20.98%, avg=4824.99, stdev=2672.10
+    lat (msec) : 50=0.01%, 100=0.03%, 250=0.07%, 500=0.02%, 750=0.02%
+    lat (msec) : 1000=0.02%, 2000=0.07%, >=2000=99.76%
+  cpu          : usr=0.00%, sys=0.05%, ctx=65573, majf=0, minf=66
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.2%, 16=0.4%, 32=99.2%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.1%, 64=0.0%, >=64=0.0%
+     issued    : total=r=0/w=32768/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=32
+
+Run status group 0 (all jobs):
+  WRITE: io=32768MB, aggrb=23001KB/s, minb=23001KB/s, maxb=23001KB/s, mint=1458771msec, maxt=1458771msec

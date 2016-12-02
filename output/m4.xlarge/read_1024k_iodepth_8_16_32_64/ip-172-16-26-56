@@ -1,0 +1,63 @@
+file1: (g=0): rw=read, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=8
+...
+file1: (g=0): rw=read, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=8
+file1: (g=0): rw=read, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=16
+...
+file1: (g=0): rw=read, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=16
+file1: (g=0): rw=read, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=32
+...
+file1: (g=0): rw=read, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=32
+file1: (g=0): rw=read, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=64
+...
+file1: (g=0): rw=read, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=64
+fio-2.1.5
+Starting 32 processes
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+fio: pid=0, err=116/file:filesetup.c:125, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+fio: pid=0, err=116/file:filesetup.c:125, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+fio: pid=0, err=116/file:filesetup.c:125, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+fio: pid=0, err=116/file:filesetup.c:125, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+fio: pid=0, err=116/file:filesetup.c:125, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+fio: pid=0, err=116/file:filesetup.c:125, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+fio: pid=0, err=116/file:filesetup.c:125, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+fio: pid=0, err=116/file:filesetup.c:125, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+fio: pid=0, err=116/file:filesetup.c:125, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+fio: pid=0, err=116/file:filesetup.c:125, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+fio: pid=0, err=116/file:filesetup.c:125, func=ftruncate, error=Stale file handle
+
+file1: (groupid=0, jobs=32): err=116 (file:filesetup.c:125, func=ftruncate, error=Stale file handle): pid=8015: Wed Nov 30 03:29:02 2016
+  read : io=86016MB, bw=21001KB/s, iops=20, runt=4194105msec
+    slat (usec): min=52, max=4319, avg=81.72, stdev=39.32
+    clat (msec): min=23, max=93981, avg=21923.34, stdev=17354.77
+     lat (msec): min=23, max=93981, avg=21923.42, stdev=17354.76
+    clat percentiles (msec):
+     |  1.00th=[ 3130],  5.00th=[ 3163], 10.00th=[ 3195], 20.00th=[ 4146],
+     | 30.00th=[14615], 40.00th=[14746], 50.00th=[14877], 60.00th=[14877],
+     | 70.00th=[16712], 80.00th=[16712], 90.00th=[16712], 95.00th=[16712],
+     | 99.00th=[16712], 99.50th=[16712], 99.90th=[16712], 99.95th=[16712],
+     | 99.99th=[16712]
+    bw (KB  /s): min=   72, max=32315, per=33.17%, avg=6964.99, stdev=8950.80
+    lat (msec) : 50=0.01%, 100=0.02%, 250=0.07%, 500=0.09%, 750=0.02%
+    lat (msec) : 1000=0.02%, 2000=0.12%, >=2000=99.64%
+  cpu          : usr=0.00%, sys=0.01%, ctx=172409, majf=0, minf=147615
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=38.2%, 16=19.1%, 32=19.1%, >=64=23.4%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.1%, 16=0.1%, 32=0.1%, 64=0.1%, >=64=0.0%
+     issued    : total=r=86016/w=0/d=0, short=r=0/w=0/d=0
+
+Run status group 0 (all jobs):
+   READ: io=86016MB, aggrb=21000KB/s, minb=21000KB/s, maxb=21000KB/s, mint=4194105msec, maxt=4194105msec

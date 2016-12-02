@@ -1,0 +1,37 @@
+file1: (g=0): rw=write, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=32
+...
+file1: (g=0): rw=write, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=32
+fio-2.1.5
+Starting 8 processes
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+
+file1: (groupid=0, jobs=8): err=116 (file:io_u.c:1521, func=io_u error, error=Stale file handle): pid=6041: Tue Nov 29 22:03:27 2016
+  write: io=28695MB, bw=21827KB/s, iops=21, runt=1346227msec
+    slat (usec): min=81, max=330, avg=151.21, stdev=20.76
+    clat (msec): min=26, max=18193, avg=10460.06, stdev=1746.23
+     lat (msec): min=26, max=18194, avg=10460.21, stdev=1746.23
+    clat percentiles (msec):
+     |  1.00th=[ 3523],  5.00th=[ 6980], 10.00th=[ 8586], 20.00th=[ 9241],
+     | 30.00th=[ 9372], 40.00th=[11469], 50.00th=[11469], 60.00th=[11469],
+     | 70.00th=[11469], 80.00th=[11469], 90.00th=[11469], 95.00th=[11600],
+     | 99.00th=[11600], 99.50th=[11600], 99.90th=[14746], 99.95th=[15401],
+     | 99.99th=[16712]
+    bw (KB  /s): min=  119, max=63879, per=21.12%, avg=4609.32, stdev=2386.18
+    lat (msec) : 50=0.01%, 100=0.03%, 250=0.14%, 500=0.14%, 750=0.14%
+    lat (msec) : 1000=0.04%, 2000=0.15%, >=2000=99.24%
+  cpu          : usr=0.00%, sys=0.05%, ctx=57506, majf=0, minf=66
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.2%, 16=0.4%, 32=99.1%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.1%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.1%, 64=0.0%, >=64=0.0%
+     issued    : total=r=0/w=28727/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=32
+
+Run status group 0 (all jobs):
+  WRITE: io=28695MB, aggrb=21826KB/s, minb=21826KB/s, maxb=21826KB/s, mint=1346227msec, maxt=1346227msec

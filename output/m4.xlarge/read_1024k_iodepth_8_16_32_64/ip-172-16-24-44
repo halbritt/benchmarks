@@ -1,0 +1,56 @@
+file1: (g=0): rw=read, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=8
+...
+file1: (g=0): rw=read, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=8
+file1: (g=0): rw=read, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=16
+...
+file1: (g=0): rw=read, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=16
+file1: (g=0): rw=read, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=32
+...
+file1: (g=0): rw=read, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=32
+file1: (g=0): rw=read, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=64
+...
+file1: (g=0): rw=read, bs=1M-1M/1M-1M/1M-1M, ioengine=libaio, iodepth=64
+fio-2.1.5
+Starting 32 processes
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+fio: pid=0, err=116/file:filesetup.c:125, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+fio: pid=0, err=116/file:filesetup.c:125, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+fio: pid=0, err=116/file:filesetup.c:125, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+fio: pid=0, err=116/file:filesetup.c:125, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+fio: pid=0, err=116/file:filesetup.c:125, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+file1: Laying out IO file(s) (1 file(s) / 4096MB)
+
+file1: (groupid=0, jobs=32): err=116 (file:filesetup.c:125, func=ftruncate, error=Stale file handle): pid=8188: Wed Nov 30 03:40:50 2016
+  read : io=102402MB, bw=22457KB/s, iops=21, runt=4669264msec
+    slat (usec): min=52, max=22430, avg=93.95, stdev=254.70
+    clat (msec): min=29, max=105336, avg=27525.41, stdev=20807.23
+     lat (msec): min=29, max=105337, avg=27525.50, stdev=20807.22
+    clat percentiles (msec):
+     |  1.00th=[ 1926],  5.00th=[ 1926], 10.00th=[ 1926], 20.00th=[ 4490],
+     | 30.00th=[16712], 40.00th=[16712], 50.00th=[16712], 60.00th=[16712],
+     | 70.00th=[16712], 80.00th=[16712], 90.00th=[16712], 95.00th=[16712],
+     | 99.00th=[16712], 99.50th=[16712], 99.90th=[16712], 99.95th=[16712],
+     | 99.99th=[16712]
+    bw (KB  /s): min=   57, max=30536, per=34.32%, avg=7707.74, stdev=9120.56
+    lat (msec) : 50=0.01%, 100=0.01%, 250=0.01%, 500=0.01%, 750=0.01%
+    lat (msec) : 1000=0.01%, 2000=15.48%, >=2000=84.48%
+  cpu          : usr=0.00%, sys=0.01%, ctx=205562, majf=0, minf=176870
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=32.1%, 16=20.1%, 32=27.9%, >=64=19.7%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.1%, 4=100.0%, 8=0.1%, 16=0.1%, 32=0.1%, 64=0.1%, >=64=0.0%
+     issued    : total=r=102402/w=0/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=102402MB, aggrb=22457KB/s, minb=22457KB/s, maxb=22457KB/s, mint=4669264msec, maxt=4669264msec

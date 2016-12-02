@@ -1,0 +1,22 @@
+; Read 4 files with aio at different depths
+[global]
+ioengine=libaio
+buffered=0
+rw=read
+bs=4m
+size=100m
+group_reporting
+numjobs=128
+directory=/efs/data/${HOSTNAME}
+
+[file1]
+iodepth=8
+
+[file2]
+iodepth=16
+
+[file3]
+iodepth=32
+
+[file4]
+iodepth=64
