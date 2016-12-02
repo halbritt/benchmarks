@@ -8,3 +8,721 @@ file4: (g=0): rw=read, bs=4M-4M/4M-4M/4M-4M, ioengine=libaio, iodepth=64
 ...
 fio-2.2.10
 Starting 512 processes
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file1: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file2: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file3: Laying out IO file(s) (1 file(s) / 100MB)
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+fio: pid=0, err=116/file:filesetup.c:141, func=ftruncate, error=Stale file handle
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+file4: Laying out IO file(s) (1 file(s) / 100MB)
+
+file1: (groupid=0, jobs=512): err=11 (file:engines/libaio.c:353, func=io_queue_init, error=Resource temporarily unavailable): pid=33450: Fri Dec  2 06:04:34 2016
+  read : io=12800MB, bw=20677KB/s, iops=5, runt=633917msec
+    slat (usec): min=445, max=4300, avg=1684.59, stdev=551.08
+    clat (msec): min=77, max=589551, avg=428160.40, stdev=181723.20
+     lat (msec): min=79, max=589553, avg=428162.08, stdev=181723.28
+    clat percentiles (msec):
+     |  1.00th=[16712],  5.00th=[16712], 10.00th=[16712], 20.00th=[16712],
+     | 30.00th=[16712], 40.00th=[16712], 50.00th=[16712], 60.00th=[16712],
+     | 70.00th=[16712], 80.00th=[16712], 90.00th=[16712], 95.00th=[16712],
+     | 99.00th=[16712], 99.50th=[16712], 99.90th=[16712], 99.95th=[16712],
+     | 99.99th=[16712]
+    bw (KB  /s): min=    6, max=27816, per=31.08%, avg=6425.66, stdev=9497.14
+    lat (msec) : 100=0.06%, 250=0.16%, 750=0.03%, >=2000=99.75%
+  cpu          : usr=0.00%, sys=0.01%, ctx=17864, majf=0, minf=52963
+  IO depths    : 1=4.0%, 2=8.0%, 4=16.0%, 8=37.6%, 16=34.4%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=85.3%, 8=2.1%, 16=4.8%, 32=7.8%, 64=0.0%, >=64=0.0%
+     issued    : total=r=3200/w=0/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=12800MB, aggrb=20676KB/s, minb=20676KB/s, maxb=20676KB/s, mint=633917msec, maxt=633917msec
