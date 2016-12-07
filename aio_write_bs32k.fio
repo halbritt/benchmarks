@@ -3,19 +3,23 @@
 ioengine=libaio
 buffered=0
 rw=write
-bs=4m
+bs=32k
 size=4g
 numjobs=1
 directory=/mnt/data
 
 [file1]
+stonewall
 iodepth=8
 
 [file2]
+stonewall
 iodepth=16
 
 [file3]
+stonewall
 iodepth=32
 
 [file4]
+stonewall
 iodepth=64

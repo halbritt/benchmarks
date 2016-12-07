@@ -9,13 +9,17 @@ numjobs=1
 directory=/mnt/data
 
 [file1]
+stonewall
 iodepth=8
 
 [file2]
+stonewall
 iodepth=16
 
 [file3]
+stonewall
 iodepth=32
 
 [file4]
+stonewall
 iodepth=64
